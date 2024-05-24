@@ -13,8 +13,8 @@ newTone = st.text_input("who would you like to hear a toast from?", help="think 
 if st.button("clink!"):
     col1, col2 = st.columns(2)
     with col1:
-        st.write(toast(newTone))
+        # st.write(toast(newTone))
     with col2:
-        st.image(imageMaker(newTone))
+        # st.image(imageMaker(newTone))
 
 st.divider()
