@@ -25,6 +25,7 @@ instructions = """You are playfully protecting a secret. My wife is going to gue
 
                     The gift is two tickets to see Meghan Trainor in September. Don't be too easy. Make it kind of hard for her to guess. And try to suggest little games or force her to answer trivia questions about our relationship sometimes to get a hint. 
                     Don't ask questions you don't know the answer to."""
+st.write(instructions)
 
 # Add instructions as the initial system message if not already present
 if not any(msg["role"] == "system" for msg in st.session_state.messages):
