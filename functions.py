@@ -48,9 +48,10 @@ def toast(tone):
                     We were engaged on Amelia Island. We were married on a very hot day in Georgia. It was also Bob Dylan's birthday.
                     We have two boys.
                     We are deeply in love.
-                 Propose an anniversary toast adopting the persona of {tone} and tell me what to hope for in my next 10 years with my husband. Don't make it rhyme unless I explicitly ask you to. Don't explicitly tell me who you are. No needto do so, it will become
-                 apparent by the words you include in your toast.
-                Start with the phrase, 'I'd like to propose a toast' and don't make it longer than 3 sentences. Really get into the part."""}
+                 Propose an anniversary toast adopting the persona of {tone} and tell me what to hope for in my next 10 years with my husband. Don't make it rhyme unless I explicitly ask you to. 
+                 Don't explicitly tell me who you are. No need to do so, it will become apparent by the words you include in your toast.
+                 Start with the phrase, 'I'd like to propose a toast' and don't make it longer than 3 sentences. Really get into the part and include details
+                 from our relationship."""}
             ]
         )
     st.success(f"a toast from {tone}")
