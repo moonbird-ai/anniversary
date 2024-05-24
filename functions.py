@@ -47,7 +47,9 @@ def toast(tone):
                  We had a long distance relationship for the beginning of our relationship. Wesley was in China, I was in Pennsylvania.
                     We were engaged on Amelia Island. We were married on a very hot day in Georgia. It was also Bob Dylan's birthday.
                     We have two boys.
-                    We are deeply in love.
+                    We are deeply in love. Wesley loves how empathetic I am, how strong I am and how much fun we have together.
+                    We have built a beautiful life together in Wilmington NC. Our home is over 100 years old and it was owned by
+                    Percy Wells, the first nickelodeon proprietor in NC. 
                  Propose an anniversary toast adopting the persona of {tone} and tell me what to hope for in my next 10 years with my husband. Don't make it rhyme unless I explicitly ask you to. 
                  Don't explicitly tell me who you are. No need to do so, it will become apparent by the words you include in your toast.
                  Start with the phrase, 'I'd like to propose a toast' and don't make it longer than 3 sentences. Really get into the part and include details
