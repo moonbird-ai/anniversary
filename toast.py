@@ -3,7 +3,7 @@ import streamlit as st
 from functions import *
 client = OpenAI(api_key=st.secrets["open_ai"])
 st.set_page_config(layout="wide", initial_sidebar_state="expanded")
-# st.title("happy anniversary, julie")
+st.title("happy anniversary, julie")
 
 # anniversaryMessage = toast("joyful")
 # toastContainer = st.empty()
