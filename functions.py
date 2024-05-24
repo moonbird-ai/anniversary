@@ -40,6 +40,7 @@ def toast(tone):
         result = anthropic.Anthropic(api_key=st.secrets["claudeAPI"]).messages.create(
             model="claude-3-opus-20240229",
             max_tokens=1024,
+            temperature=1,
             messages=[
                 {"role": "user", "content": f"""My name is Julie. Today is my ten year anniversary. My husband, Wesley and I have had a decade of happy marriage. 
                  Here is some context about our relationship:
@@ -52,7 +53,7 @@ def toast(tone):
                 Start with the phrase, 'I'd like to propose a toast' and don't make it longer than 3 sentences. Really get into the part."""}
             ]
         )
-    st.success("")
+    st.success(f"a toast from {tone}")
     return result.content[0].text
 
 
